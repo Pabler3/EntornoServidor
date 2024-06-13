@@ -1,0 +1,176 @@
+.container{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    background-size: 100vw 100vh;
+    font-family: monospace;
+}
+
+.tabla {
+    width: 100%; 
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url(../IMG/fondo4.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.formulario{
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px 20px 10px 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    width: 50%;
+    color:azure;
+
+}
+
+.formulario > *{
+    padding: 0.5px;
+    margin: 1rem auto;
+    display: block;
+    width: 100%;
+}
+
+label{
+    color: rgb(186, 133, 63);
+    font-family: monospace;
+    font-size: 1.2rem;
+
+}
+
+h2{
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+}
+
+h4{
+    font-size: 2em;
+    color: rgb(186, 133, 63);
+    text-align: center;
+}
+
+.formulario input[type="submit"]{
+    width: 25%;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    transition: all 0.3s ease-out;
+    place-items: left;
+    display: inline;
+    background: #778201;
+    color:azure;
+
+
+}
+
+button{
+    width: 40%;
+    height: 20px;
+    border-radius: 40px;
+    background:#778201;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.0em;
+    font-weight: 600;
+    font-family: monospace;
+    color:azure;
+}
+
+button a{
+    width: 40%;
+    height: 20px;
+    border-radius: 40px;
+    background:#778201;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.0em;
+    font-weight: 600;
+    font-family: monospace;
+    color:azure;
+}
+
+.button{
+    width: 30%;
+    height: 35px;
+    border-radius: 20px;
+    background:#778201;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.0em;
+    font-weight: 600;
+    font-family: monospace;
+    color:azure;
+}
+
+.formulario input[type="reset"]{
+    width: 25%;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    transition: all 0.3s ease-out;
+    place-items: right;
+    display: inline;
+    background: #778201;
+    color:azure;
+}
+
+.formulario input[type="button"]{
+    width: 25%;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    transition: all 0.3s ease-out;
+    place-items: right;
+    display: inline;
+    background: #778201;
+    color:azure;
+
+}
+
+.formulario input[type="submit"]:hover{
+    background-color: burlywood;
+}
+
+.formulario input[type="reset"]:hover{
+    background-color: burlywood;
+}
+
+.formulario input[type="button"]:hover{
+    background-color: burlywood;
+}
+
+.error{
+    font-size: 15px;
+    color: red;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+@media(max-width: 992px){
+    .formulario{
+        width: 30%;
+    }
+}
+
