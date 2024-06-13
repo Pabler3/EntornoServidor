@@ -7,10 +7,11 @@ Requisitos principales
 
 -	La aplicación debe conectar a una Base de Datos.
 -	CRUD sobre Base de Datos.
--	Debe contener formularios.
+-	Debe contener formularios con envío de datos POST y GET.
 -	Debe hacer uso de Cookies y Sesiones.
 -	Login y Registro.
 -	Validaciones en lado cliente y lado servidor.
+-	Uso de arrays asociativos.
 
 >Presentación de los ejercicios propuestos.
 
