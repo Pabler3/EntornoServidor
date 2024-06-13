@@ -14,7 +14,7 @@ Requisitos principales
 
 >Presentación de los ejercicios propuestos.
 
-https://github.com/Pabler3/EntornoCliente/assets/164863153/f0629cba-1ab8-4688-894e-0fe057b77152
+https://github.com/Pabler3/EntornoServidor/assets/164863153/2648b63f-34a9-437c-988a-11549c4aa0ef
 
 Tecnologías y utilizadas
 
